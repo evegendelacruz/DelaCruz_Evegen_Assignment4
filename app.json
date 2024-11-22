@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "DelaCruz_Assignment4",
+    "slug": "DelaCruz_Assignment4",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#0f55e3"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#0f55e3"
+      }
+    },
+    "web": {
+      "favicon": "./assets/Logo.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router"
+    ]
+  }
+}
