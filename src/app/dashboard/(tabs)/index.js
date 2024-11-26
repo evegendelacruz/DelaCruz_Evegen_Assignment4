@@ -96,23 +96,27 @@ const styles = StyleSheet.create({
     height: 111,
     marginVertical: 10,
     borderRadius: 10,
+    alignSelf:'center'
   },
+
   deviceControllerCon: {
     marginVertical: 20,
     backgroundColor: '#f0f0f0',
     borderRadius: 8,
     elevation: 5,
+    alignSelf:'center'
   },
   deviceControllerRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    width: '100%',
+    width: '95%',
     marginHorizontal: 10,
   },
   deviceControllerTitleCon: {
     flexDirection: 'row',
     alignItems: 'center',
+    marginBottom: 10
   },
   iconMargin: {
     marginRight: 5,
